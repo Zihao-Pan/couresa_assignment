@@ -1,0 +1,79 @@
+---
+title: "Exploring the BRFSS data"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+## Setup
+
+### Load packages
+
+```{r load-packages, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+### Load data
+
+Make sure your data and R Markdown files are in the same directory. When loaded
+your data file will be called `brfss2013`. Delete this note when before you submit 
+your work. 
+
+```{r load-data}
+load("brfss2013.RData")
+```
+
+
+
+* * *
+
+## Part 1: Data
+
+**Answer:** Interviewers collect data from a randomly selected adult in a household in conducting the BRFSS landline telephone survey, So random sampling is employed in data collection,the result can be generalizable to the population.
+
+**Answer:** BRFSS collect surveillance data through telephone interview, and the subjects aren't being assigned to various groups. So the survey that doesn't employ random assignment can't be used to make causal conclusions.
+
+* * *
+
+## Part 2: Research questions
+
+**Research quesion 1:** Are people who refuse to see the doctor because of cost more likely to have no health care coverage?(There's a cost involved in seeing a doctor and having any health care coverage, so I guess most the poor can't see  a doctor and have no coverage because of money.)
+                      
+**Research quesion 2:** Do people with higher education earn more?(Generally speaking, people with the higher education are more capable, and this may effect their income. Hence, I'm interested in the relationship between education level and income level.)
+
+**Research quesion 3:** Does smoking frequency affect mental health?(smoking is harmful to the body, but whether smoking is harmful to our mental health is a interesting question.)
+
+                             
+* * *
+
+## Part 3: Exploratory data analysis
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button (green button with orange arrow) above. Make sure that your code is visible
+in the project you submit. Delete this note when before you submit your work.
+
+**Research quesion 1:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 2:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 3:**
+
+```{r}
+
+```
+
